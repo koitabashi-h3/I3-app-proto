@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ideas in Itch（MVP）</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--タイトル-->
+    <div class="app-title">
+        <h1>Ideas in Itch</h1>
+        <p class="subtitle">そのモヤモヤを、新しいアイデアに</p>
+    </div>
+    <!--入力画面-->
+    <div id="input-screen">
+        <h2>日常の不満や失敗を入力してください</h2>
+        <p class="subtitle">あなたの不満や失敗から、課題や解決策を探します</p>
+        <textarea id="complaint-input" rows="4" placeholder="例：レジがいつも混んでいて時間がかかる"></textarea>
+        <br>
+        <button id="analyze-btn">課題を分析する</button>
+    </div>
+
+    <!--分析結果表示画面-->
+    <div id="result-screen" style="display:none;">
+        <h2>分析結果</h2>
+        <p><strong>入力された不満：</strong> <span id="display-complaint"></span></p>
+        <p><strong>カテゴリ：</strong> <span id="display-category"></span></p>
+        <br>
+        <p><strong>既存の解決策：</strong></p>
+        <div id="solution-list"></div>
+
+        <button id="back-btn">戻る</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -16,6 +16,7 @@ body {
   text-shadow: 0 2px 4px rgba(0,0,0,0.1);
   color: #191970;
   margin-bottom: 4px;
+  margin: 0 auto;
 }
 .app-title .subtitle {
   font-size: 14px;
@@ -32,6 +33,7 @@ body {
   padding: 24px;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-sizing: border-box;
   animation: fadeIn 0.4s ease;
 }
 #result-screen strong {
@@ -106,6 +108,9 @@ button:hover {
   margin-bottom: 12px;
   border: 1px solid #e0eaff;
   word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  line-height: 1.6;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   animation: slideIn 0.3s ease;
 }

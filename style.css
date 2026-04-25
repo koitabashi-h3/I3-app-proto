@@ -69,7 +69,14 @@ h2 {
   margin-top: -8px;
   margin-bottom: 16px;
   color: #666;
-  font-size: 14px;
+  font-size: 13px;
+}
+
+.text-block {
+  line-height: 1.5;
+  word-break: break-word;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 /* テキストエリア */

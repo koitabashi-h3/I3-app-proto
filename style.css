@@ -92,6 +92,13 @@ textarea {
   box-sizing: border-box;
 }
 
+.input-note {
+  font-size: 12px;
+  color: #888;
+  margin-top: 6px;
+  text-align: left;
+}
+
 /* ボタン */
 button {
   width: 100%;

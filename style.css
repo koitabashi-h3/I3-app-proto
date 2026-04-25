@@ -70,9 +70,6 @@ h2 {
   margin-bottom: 16px;
   color: #666;
   font-size: 13px;
-}
-
-.text-block {
   line-height: 1.5;
   word-break: break-word;
   max-width: 90%;

@@ -12,7 +12,7 @@ const displayCategory = document.getElementById("display-category");
 
 // AI
 async function analyzeComplaint(text) {
-  const res = await fetch("/analyze", {
+  const res = await fetch("https://i3-backend-brkz.onrender.com/analyze", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ text })
@@ -24,7 +24,7 @@ async function analyzeComplaint(text) {
 
 
 async function searchExistingSolutions(text) {
-  const res = await fetch("/solutions", {
+  const res = await fetch("https://i3-backend-brkz.onrender.com/solutions", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ text })

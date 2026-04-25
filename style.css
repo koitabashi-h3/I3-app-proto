@@ -11,8 +11,12 @@ body {
 
 /* アプリタイトル */
 .app-title {
+  display: block;
   text-align: center;
+  width: 100%;
+  margin: 0 auto 20px;
   margin-bottom: 32px;
+  flex: 0 0 100%;
 }
 .app-title h1 {
   font-size: 36px;
